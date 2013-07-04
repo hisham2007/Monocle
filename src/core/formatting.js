@@ -285,5 +285,6 @@ Monocle.Formatting.DEFAULT_STYLE_RULES = [
   "html#RS\\:monocle img, html#RS\\:monocle video, html#RS\\:monocle object, html#RS\\:monocle svg {" +
     "max-height: 95% !important;" +
     "height: auto !important;" +
-  "}"
+  "}",
+  "a:not([href]) { color: inherit; }"
 ]
